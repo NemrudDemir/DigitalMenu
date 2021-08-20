@@ -14,3 +14,6 @@ You can trigger the api endpoints on swagger ui. Swagger ui can be reached via h
 
 ## HealthCheck
 The HealthCheck can be reached via http://localhost:5000/hc
+
+## Problems
+* TimeSpan didn't json serialization was not ISO8601 conform. Solved by adding Newtonsoft.Json package.
